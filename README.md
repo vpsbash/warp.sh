@@ -1,3 +1,5 @@
+https://cdn.jsdelivr.net/gh/vpsbash/warp.sh/warp.sh
+
 **English** | [中文](https://p3terx.com/archives/cloudflare-warp-configuration-script.html)
 
 # Cloudflare WARP configuration script
