@@ -299,7 +299,7 @@ Print_Delimiter() {
 }
 
 Install_wgcf() {
-    curl -fsSL git.io/wgcf.sh | bash
+    curl -fsSL https://cdn.jsdelivr.net/gh/vpsbash/warp.sh/wgcf.sh | bash
 }
 
 Uninstall_wgcf() {
@@ -427,11 +427,11 @@ Install_WireGuardTools() {
 Install_WireGuardGo() {
     case ${SysInfo_Virt} in
     openvz | lxc*)
-        curl -fsSL git.io/wireguard-go.sh | bash
+        curl -fsSL https://cdn.jsdelivr.net/gh/vpsbash/warp.sh/wireguard-go.sh | bash
         ;;
     *)
         if [[ ${SysInfo_Kernel_Ver_major} -lt 5 || ${SysInfo_Kernel_Ver_minor} -lt 6 ]]; then
-            curl -fsSL git.io/wireguard-go.sh | bash
+            curl -fsSL https://cdn.jsdelivr.net/gh/vpsbash/warp.sh/wireguard-go.sh | bash
         fi
         ;;
     esac
