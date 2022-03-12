@@ -72,7 +72,7 @@ echo -e "${INFO} Architecture: ${OS_ARCH} ${PKGT}"
 
 echo -e "${INFO} Get ${PROJECT_NAME} download URL ..."
 # DOWNLOAD_URL=$(curl -fsSL ${GH_API_URL} | grep 'browser_download_url' | cut -d'"' -f4 | grep "${FILE_KEYWORD}")
-DOWNLOAD_URL='https://cdn.jsdelivr.net/gh/vpsbash/warp.sh/wgcf_2.2.10_linux_amd64'
+DOWNLOAD_URL='https://cdn.jsdelivr.net/gh/vpsbash/warp.sh/wgcf_2.2.12_linux_amd64'
 echo -e "${INFO} Download URL: ${DOWNLOAD_URL}"
 
 echo -e "${INFO} Installing ${PROJECT_NAME} ..."
