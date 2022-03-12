@@ -1,4 +1,4 @@
-https://cdn.jsdelivr.net/gh/vpsbash/warp.sh/warp.sh
+wget -qO- https://cdn.jsdelivr.net/gh/vpsbash/warp.sh/warp.sh | bash
 
 **English** | [中文](https://p3terx.com/archives/cloudflare-warp-configuration-script.html)
 
