@@ -309,7 +309,7 @@ Print_Delimiter() {
 }
 
 Install_wgcf() {
-    curl -fsSL git.io/wgcf.sh | bash
+    curl -fsSL https://cdn.jsdelivr.net/gh/vpsbash/warp.sh/wgcf.sh | bash
 }
 
 Uninstall_wgcf() {
