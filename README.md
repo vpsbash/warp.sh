@@ -1,4 +1,4 @@
-bash <(curl -fsSL https://cdn.jsdelivr.net/gh/vpsbash/warp.sh/warp.sh) 4
+bash <(curl -fsSL https://cdn.jsdelivr.net/gh/vpsbash/warp.sh/warp.sh) menu
 
 **English** | [中文](https://p3terx.com/archives/cloudflare-warp-configuration-script.html)
 
